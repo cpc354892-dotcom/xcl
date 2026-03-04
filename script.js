@@ -150,7 +150,7 @@ const mainLevels = [
         id: "133935971",
         points: 3.8,
         verifiedBy: "Florned",
-        victors: ["#1 Artleb", "#2 Xalval", "#3 Aproudy", "#4 Doctor Strang"]
+        victors: ["#1 Artleb", "#2 Xalval", "#3 Aproudy", "#4 Doctor Strang", "#5 Dvleakkk"]
     },
     {
         number: 20,
