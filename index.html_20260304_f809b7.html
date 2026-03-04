@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XCL - Xalval Challenge List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <h1 class="logo">XCL <span class="version">v1.0.0</span></h1>
+            </div>
+            <div class="header-right">
+                <a href="https://t.me/xalvachallL" target="_blank" class="telegram-link">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <button class="nav-btn active" data-tab="main">Main List</button>
+            <button class="nav-btn" data-tab="legacy">Legacy List</button>
+            <button class="nav-btn" data-tab="pack">Petuh Pack</button>
+            <button class="nav-btn" data-tab="leaderboard">Leaderboard</button>
+            <button class="nav-btn" data-tab="submit-record">Submit Record</button>
+            <button class="nav-btn" data-tab="submit-level">Submit Level</button>
+        </nav>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Main List -->
+            <div id="main" class="tab-content active">
+                <h2>Main List</h2>
+                <div class="levels-list" id="main-list"></div>
+            </div>
+
+            <!-- Legacy List -->
+            <div id="legacy" class="tab-content">
+                <h2>Legacy List</h2>
+                <div class="levels-list" id="legacy-list"></div>
+            </div>
+
+            <!-- Pack -->
+            <div id="pack" class="tab-content">
+                <h2>Petuh Pack</h2>
+                <div class="levels-list" id="pack-list"></div>
+            </div>
+
+            <!-- Leaderboard -->
+            <div id="leaderboard" class="tab-content">
+                <h2>Leaderboard</h2>
+                <div class="leaderboard-container">
+                    <table class="leaderboard-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Player</th>
+                                <th>Points</th>
+                                <th>Hardest</th>
+                            </tr>
+                        </thead>
+                        <tbody id="leaderboard-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Submit Record -->
+            <div id="submit-record" class="tab-content">
+                <h2>Submit Record</h2>
+                <form id="record-form" class="submit-form">
+                    <div class="form-group">
+                        <label for="record-level">Level *</label>
+                        <select id="record-level" required>
+                            <option value="">Select a level</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="player-name">Player Name *</label>
+                        <input type="text" id="player-name" required placeholder="e.g., Florned">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="video-link">Video Link *</label>
+                        <input type="url" id="video-link" required placeholder="https://youtube.com/...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="placement-opinion">Placement Opinion</label>
+                        <textarea id="placement-opinion" rows="3" placeholder="Your opinion about this level's placement..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit Record</button>
+                </form>
+            </div>
+
+            <!-- Submit Level -->
+            <div id="submit-level" class="tab-content">
+                <h2>Submit Level</h2>
+                <form id="level-form" class="submit-form">
+                    <div class="form-group">
+                        <label for="level-name">Level Name *</label>
+                        <input type="text" id="level-name" required placeholder="e.g., Xalval Iks">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="level-id">Level ID *</label>
+                        <input type="text" id="level-id" required placeholder="e.g., 134658490">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="creator">Creator(s) *</label>
+                        <input type="text" id="creator" required placeholder="e.g., ad3usgmd, Nick24">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="suggested-by">Suggested By *</label>
+                        <input type="text" id="suggested-by" required placeholder="Your name">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit Level</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
