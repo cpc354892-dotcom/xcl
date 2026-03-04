@@ -266,7 +266,7 @@ const leaderboardData = [
     { player: "Nikabri", points: 1080, hardest: "Xalval Iks" },
     { player: "Aproudy", points: 491.4, hardest: "Xalval Lavlax" },
     { player: "Xalval", points: 145.2, hardest: "Xalval Petushara" },
-    { player: "Dvleakkk", points: 78.8, hardest: "Xalval Petushara" },
+    { player: "Dvleakkk", points: 82.6, hardest: "Xalval Petushara" },
     { player: "Ster3o", points: 36.4, hardest: "Xalval Xuyval" },
     { player: "TimsTeam", points: 15, hardest: "Better Call Xalval" },
     { player: "Artleb", points: 11.4, hardest: "Xalval Navalniy" },
