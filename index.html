@@ -72,27 +72,32 @@
             <!-- Submit Record -->
             <div id="submit-record" class="tab-content">
                 <h2>Submit Record</h2>
-                <form id="record-form" class="submit-form">
+                <form action="https://formsubmit.co/cpc354892@gmail.com" method="POST" class="submit-form">
+                    <!-- Скрытые поля для настройки -->
+                    <input type="hidden" name="_subject" value="New Record Submission!">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    
                     <div class="form-group">
                         <label for="record-level">Level *</label>
-                        <select id="record-level" required>
+                        <select id="record-level" name="Level" required>
                             <option value="">Select a level</option>
                         </select>
                     </div>
                     
                     <div class="form-group">
                         <label for="player-name">Player Name *</label>
-                        <input type="text" id="player-name" required placeholder="e.g., Florned">
+                        <input type="text" id="player-name" name="Player Name" required placeholder="e.g., Florned">
                     </div>
                     
                     <div class="form-group">
                         <label for="video-link">Video Link *</label>
-                        <input type="url" id="video-link" required placeholder="https://youtube.com/...">
+                        <input type="url" id="video-link" name="Video Link" required placeholder="https://youtube.com/...">
                     </div>
                     
                     <div class="form-group">
                         <label for="placement-opinion">Placement Opinion</label>
-                        <textarea id="placement-opinion" rows="3" placeholder="Your opinion about this level's placement..."></textarea>
+                        <textarea id="placement-opinion" name="Placement Opinion" rows="3" placeholder="Your opinion about this level's placement..."></textarea>
                     </div>
                     
                     <button type="submit" class="submit-btn">Submit Record</button>
@@ -102,25 +107,30 @@
             <!-- Submit Level -->
             <div id="submit-level" class="tab-content">
                 <h2>Submit Level</h2>
-                <form id="level-form" class="submit-form">
+                <form action="https://formsubmit.co/cpc354892@gmail.com" method="POST" class="submit-form">
+                    <!-- Скрытые поля для настройки -->
+                    <input type="hidden" name="_subject" value="New Level Suggestion!">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    
                     <div class="form-group">
                         <label for="level-name">Level Name *</label>
-                        <input type="text" id="level-name" required placeholder="e.g., Xalval Iks">
+                        <input type="text" id="level-name" name="Level Name" required placeholder="e.g., Xalval Iks">
                     </div>
                     
                     <div class="form-group">
                         <label for="level-id">Level ID *</label>
-                        <input type="text" id="level-id" required placeholder="e.g., 134658490">
+                        <input type="text" id="level-id" name="Level ID" required placeholder="e.g., 134658490">
                     </div>
                     
                     <div class="form-group">
                         <label for="creator">Creator(s) *</label>
-                        <input type="text" id="creator" required placeholder="e.g., ad3usgmd, Nick24">
+                        <input type="text" id="creator" name="Creators" required placeholder="e.g., ad3usgmd, Nick24">
                     </div>
                     
                     <div class="form-group">
                         <label for="suggested-by">Suggested By *</label>
-                        <input type="text" id="suggested-by" required placeholder="Your name">
+                        <input type="text" id="suggested-by" name="Suggested By" required placeholder="Your name">
                     </div>
                     
                     <button type="submit" class="submit-btn">Submit Level</button>
