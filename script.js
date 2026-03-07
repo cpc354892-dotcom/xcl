@@ -66,188 +66,195 @@ const mainLevels = [
     },
     {
         number: 9,
-        name: "Xalval Aod Peak",
-        id: "135006841",
+        name: "Xalvality",
+        id: "135010776",
         points: 75,
-        verifiedBy: "Paralelip",
+        verifiedBy: "Azura",
         victors: []
     },
     {
         number: 10,
+        name: "Xalval Aod Peak",
+        id: "135006841",
+        points: 65,
+        verifiedBy: "Paralelip",
+        victors: []
+    },
+    {
+        number: 11,
         name: "Xalval OKAK",
         id: "134361078",
-        points: 65,
+        points: 55,
         verifiedBy: "Nikabri",
         victors: ["#1 Aproudy", "#2 Florned"]
     },
     {
-        number: 11,
+        number: 12,
         name: "Xalval Phonk",
         id: "134671910",
-        points: 55,
+        points: 45,
         verifiedBy: "Azura",
         victors: []
     },
     {
-        number: 12,
+        number: 13,
         name: "Xalval Petushara",
         id: "133871529",
-        points: 45,
+        points: 35,
         verifiedBy: "Azura",
         victors: ["#1 Florned", "#2 Dvleakkk", "#3 Xalval"]
     },
     {
-        number: 13,
+        number: 14,
         name: "Xalval Na Kladbishe",
         id: "134567791",
-        points: 35,
+        points: 25,
         verifiedBy: "Azura",
         victors: ["#1 Florned", "#2 Doctor Strang"]
     },
     {
-        number: 14,
+        number: 15,
         name: "Xalval 1010",
         id: "134691087",
-        points: 25,
+        points: 15,
         verifiedBy: "Nikabri",
         victors: []
     },
     {
-        number: 15,
+        number: 16,
         name: "Xalval Xuyval",
         id: "134280207",
-        points: 15,
+        points: 5,
         verifiedBy: "Ster3o",
         victors: ["#1 Azura", "#2 Florned", "#3 Xalval"]
     },
     {
-        number: 16,
+        number: 17,
         name: "Xalval Tolstiy",
         id: "134542742",
-        points: 5,
+        points: 4.6,
         verifiedBy: "Azura",
         victors: ["#1 Xalval", "#2 Florned"]
     },
     {
-        number: 17,
+        number: 18,
         name: "Better Call Xalval",
         id: "133957384",
-        points: 4.6,
+        points: 4.2,
         verifiedBy: "Dvleakkk",
         victors: ["#1 Azura", "#2 TimsTeam", "#3 Florned", "#4 Xalval"]
     },
     {
-        number: 18,
+        number: 19,
         name: "Xalval 67",
         id: "134357062",
-        points: 4.2,
+        points: 3.8,
         verifiedBy: "Azura",
         victors: ["#1 Nikabri", "#2 Florned", "#3 Xalval"]
     },
     {
-        number: 19,
+        number: 20,
         name: "Xalval Pisya",
         id: "133934075",
-        points: 3.8,
+        points: 3.4,
         verifiedBy: "Florned",
         victors: []
     },
     {
-        number: 20,
+        number: 21,
         name: "4th Second Xalval",
         id: "134200966",
-        points: 3.4,
+        points: 3,
         verifiedBy: "Azura",
         victors: ["#1 Florned", "#2 Sp1rtzy", "#4 Doctor Strang"]
     },
     {
-        number: 21,
+        number: 22,
         name: "Xalval Navalniy",
         id: "133935971",
-        points: 3,
+        points: 2.6,
         verifiedBy: "Florned",
         victors: ["#1 Artleb", "#2 Xalval", "#3 Aproudy", "#4 Doctor Strang", "#5 Dvleakkk"]
     },
     {
-        number: 22,
+        number: 23,
         name: "Xalval Femboy",
         id: "134539221",
-        points: 2.6,
+        points: 2.2,
         verifiedBy: "Azura",
         victors: ["#1 эйфория", "#2 Xalval", "#3 Dvleakkk", "#4 Aproudy", "#5 Florned", "#6 Doctor Strang"]
     },
     {
-        number: 23,
+        number: 24,
         name: "Xalval JDFLAG",
         id: "134276235",
-        points: 2.2,
+        points: 1.8,
         verifiedBy: "Florned",
         victors: ["#1 Azura", "#2 Artleb", "#3 Xalv", "#4 Aproudy"]
     },
     {
-        number: 24,
+        number: 25,
         name: "Xalval Swing",
         id: "134203403",
-        points: 1.8,
+        points: 1.4,
         verifiedBy: "Azura",
         victors: ["#1 Florned", "#2 Aproudy"]
-    },
-    {
-        number: 25,
-        name: "Xalval Beastars",
-        id: "134279156",
-        points: 1.4,
-        verifiedBy: "Florned",
-        victors: ["#1 Artleb", "#2 Dvleakkk", "#3 Aproudy"]
     }
 ];
 
 // Legacy List (26-30, no points)
 const legacyLevels = [
-    {
+      {
         number: 26,
+        name: "Xalval Beastars",
+        id: "134279156",
+        verifiedBy: "Florned",
+        victors: ["#1 Artleb", "#2 Dvleakkk", "#3 Aproudy"]
+    },
+    {
+        number: 27,
         name: "Xalval Ebal Osla",
         id: "133877119",
         verifiedBy: "Azura",
         victors: ["#1 Dvleakkk", "#2 Florned"]
     },
     {
-        number: 27,
+        number: 28,
         name: "Xalval Petuh228",
         id: "133798148",
         verifiedBy: "Artleb",
         victors: ["#1 Azura", "#2 Dvleakkk", "#3 Ster3o", "#4 Florned", "#5 Aproudy"]
     },
     {
-        number: 28,
+        number: 29,
         name: "Xalval Skrutchik",
         id: "133869933",
         verifiedBy: "Azura",
         victors: ["#1 Dvleakkk", "#2 Atleb", "#3 Florned", "#4 Sp1rtzy", "#5 Aproudy"]
     },
     {
-        number: 29,
+        number: 30,
         name: "Xalval Baobab",
         id: "134283179",
         verifiedBy: "Azura",
         victors: ["#1 Ster3o", "#2 Florned", "#3 Dvleakkk", "#4 Sp1rtzy", "#5 Aproudy"]
     },
     {
-        number: 30,
+        number: 31,
         name: "Xalval Ubil Baty",
         id: "133872859",
         verifiedBy: "Azura",
         victors: ["#1 Dvleakkk", "#2 Florned", "#3 Aproudy"]
     },
     {
-        number: 31,
+        number: 32,
         name: "Xalval Sosal",
         id: "133874090",
         verifiedBy: "Artleb",
         victors: ["#1 Azura", "#2 Dvleakkk", "#3 Florned", "#4 эйфория", "#5 Sp1rtzy"]
     },
     {
-        number: 32,
+        number: 33,
         name: "Xalval El Kal",
         id: "133934482",
         verifiedBy: "Artleb",
@@ -275,19 +282,19 @@ const packLevels = [
 
 // Leaderboard
 const leaderboardData = [
-    { player: "Florned", points: 1621.6, hardest: "Xalval Na Stroyke" },
-    { player: "Azura", points: 1413.6, hardest: "Xalval Na Stroyke" },
-    { player: "Nikabri", points: 1094.2, hardest: "Xalval Iks" },
-    { player: "Aproudy", points: 476, hardest: "Xalval Lavlax" },
-    { player: "Xalval", points: 81.6, hardest: "Xalval Petushara" },
-    { player: "Paralelip", points: 75, hardest: "Xalval Aod Peak" },
-    { player: "Dvleakkk", points: 56.6, hardest: "Xalval Petushara" },
-    { player: "Doctor Strang", points: 44, hardest: "Xalval Na Kladbishe" },
-    { player: "Ster3o", points: 15, hardest: "Xalval Xuyval" },
-    { player: "Artleb", points: 6.6, hardest: "Xalval Navalniy" },
-    { player: "TimsTeam", points: 4.6, hardest: "Better Call Xalval" },
-    { player: "Sp1rtzy", points: 3.4, hardest: "4th Second Xalval" },
-    { player: "эйфория", points: 2.6, hardest: "Xalval Femboy" }
+    { player: "Florned", points: 2227.6, hardest: "Xalval Na Stroyke" },
+    { player: "Azura", points: 1446, hardest: "Xalval Na Stroyke" },
+    { player: "Nikabri", points: 1073.8, hardest: "Xalval Iks" },
+    { player: "Aproudy", points: 463, hardest: "Xalval Lavlax" },
+    { player: "Paralelip", points: 65, hardest: "Xalval Aod Peak" },
+    { player: "Xalval", points: 59.2, hardest: "Xalval Petushara" },
+    { player: "Dvleakkk", points: 44, hardest: "Xalval Petushara" },
+    { player: "Doctor Strang", points: 32.8, hardest: "Xalval Na Kladbishe" },
+    { player: "Ster3o", points: 5, hardest: "Xalval Xuyval" },
+    { player: "Artleb", points: 4.4, hardest: "Xalval Navalniy" },
+    { player: "TimsTeam", points: 4.2, hardest: "Better Call Xalval" },
+    { player: "Sp1rtzy", points: 3, hardest: "4th Second Xalval" },
+    { player: "эйфория", points: 2.2, hardest: "Xalval Femboy" }
 ];
 // All levels combined for dropdowns
 const allLevels = [
